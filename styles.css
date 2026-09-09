@@ -360,3 +360,20 @@ footer a { color: var(--navy); }
   .dossier .card3d { transition: none; }
   .js .reveal { opacity: 1; transform: none; transition: none; }
 }
+
+/* ---------- doc pages (about / ai-visibility / contact), 2026-09-09 ---------- */
+.doc h1 { max-width: 12ch; }
+.doc .lines.lead { font-size: 21px; max-width: 720px; }
+.doc .cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.doc .block { margin-top: 72px; max-width: 760px; }
+.doc .block h2 { margin-bottom: 20px; }
+.doc .terms.steps li { align-items: start; font-size: 17px; line-height: 1.5; }
+.doc .terms.steps strong { font-weight: 500; }
+.receipt { background: var(--cream); border: 1px solid var(--ink); box-shadow: var(--shadow); padding: 24px 28px; margin-bottom: 24px; overflow-x: auto; }
+.receipt table { width: 100%; border-collapse: collapse; font-size: 16px; }
+.receipt th, .receipt td { text-align: left; padding: 12px 12px 12px 0; border-top: 1px solid rgba(33,33,33,.2); vertical-align: top; }
+.receipt th { font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--blue); border-top: 0; }
+.receipt td.n { font-family: var(--mono); font-size: 14px; white-space: nowrap; }
+.receipt .cap { margin-top: 14px; font-size: 14px; color: var(--ink-2); }
+.doc .doclinks { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 8px 22px; font-family: var(--mono); font-size: 13px; letter-spacing: .04em; text-transform: uppercase; }
+@media (max-width: 719px) { .doc .block { margin-top: 52px; } .doc .lines.lead { font-size: 19px; } }
